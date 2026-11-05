@@ -2,10 +2,10 @@
 name = "dagster-ducklake"
 description = "Dagster integration for Ducklake"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
     "dagster>=1.11.9",
-    "duckdb>=1.4.0",
+    "duckdb>=2.0.0",
     "pydantic>=2.0.0",
     "sqlalchemy~=2.0.43",
 ]
